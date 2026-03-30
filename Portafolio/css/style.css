@@ -120,7 +120,7 @@ main #section-about .photo img {
     height: 200px;
     border-radius: 50%;
     vertical-align: top;
-    border: 5px solid rgba(255, 255, 255, 0.2);
+    border: 5px solid rgba(255, 255, 255, 0);
     }
 
 main #section-about .text {
