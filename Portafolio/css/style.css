@@ -415,26 +415,56 @@ footer #section-social-media .container .TikTok:hover {
     }
 }
 
-@media screen and (max-width: 500px) {
-    header .container-text .text .name {
-        font-size: 35px;
-    }
-}
 
 @media screen and (max-width: 500px) {
+    header {
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    header .container-text {
+        margin: 50px 0;
+    }
+
+    header .container-text .text {
+        padding: 20px;
+    }
+
     header .container-text .text .name {
-        font-size: 35px;
+        font-size: 28px;
+        line-height: 30px;
     }
 
     header .container-text .text .profession {
-        font-size: 18px;
+        font-size: 16px;
     }
 
-    footer #section-socialMedia .container {
+    header .container-text .text .btn-cv {
+        max-width: 100%;
+        font-size: 14px;
+    }
+
+    main #section-about .photo img {
+        width: 120px;
+        height: 120px;
+    }
+
+    main #section-about .photo {
+        margin-top: -60px;
+    }
+
+    main #section-about .text {
+        width: 95%;
+        font-size: 14px;
+    }
+
+    footer #section-social-media .container {
         flex-wrap: wrap;
     }
 
-    footer #section-socialMedia .container a {
-        padding: 20px;
+    footer #section-social-media .container a {
+        padding: 10px;
+        width: 60px;
+        font-size: 20px;
     }
 }
